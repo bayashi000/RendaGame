@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{D160D3FE-1AFA-C50B-F059-CE489CA29E1A}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/startSceneManager1.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GameManagerScript.cs" Line="60" Column="48" />
+      <File FileName="Assets/Scripts/GameManagerScripts.cs" Line="8" Column="28" />
+      <File FileName="Assets/Scripts/StartSceneManager.cs" Line="3" Column="19" />
+      <File FileName="Assets/Scripts/startSceneManager1.cs" Line="11" Column="40" />
+      <File FileName="Assets/Scripts/EndSceneManager.cs" Line="10" Column="46" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
