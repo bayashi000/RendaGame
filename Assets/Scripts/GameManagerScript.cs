@@ -15,8 +15,10 @@ public class GameManagerScript : MonoBehaviour
      */
 
      //ゲームを開始していない状態にする
-    bool isPlaying = false; 
-       
+    bool isPlaying = false;
+
+    //rendasoundの宣言
+    public GameObject rendaSound;
 
     //数字
     int count = 0;
@@ -33,8 +35,10 @@ public class GameManagerScript : MonoBehaviour
     void Start()
     {
         buttonText.text = "スタート";
+        countText.text = "0";
+        timerText.text = "0";
     }
-
+    
     // ゲーム中ずっと処理
     void Update()
     {
@@ -55,6 +59,12 @@ public class GameManagerScript : MonoBehaviour
             timerText.text = timer.ToString("f2");
 
             buttonText.text = "終了";
+
+            //値保存
+            /*データの保存の仕方
+             * PlayerPrefs.SetInt("保存名",保存する値);
+             */
+            PlayerPrefs.SetInt("score", count);
 
             //画面遷移
             SceneManager.LoadScene("EndScene");
@@ -87,6 +97,10 @@ public class GameManagerScript : MonoBehaviour
             countText.text = count.ToString();
 
             Debug.Log(count);
+
+            GameObject rendaSoundClone = Instantiate(rendaSound) as GameObject;
+
+            Destroy(rendaSoundClone,3.0f);
         }
         else
         {

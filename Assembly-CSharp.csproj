@@ -62,7 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\EndSceneManager.cs" />
     <Compile Include="Assets\Scripts\GameManagerScript.cs" />
-    <Compile Include="Assets\Scripts\GameManagerScripts.cs" />
+    <Compile Include="Assets\Scripts\GameManagerScript2.cs" />
     <Compile Include="Assets\Scripts\startSceneManager1.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/bayashi/Desktop/RendaGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

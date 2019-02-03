@@ -1,11 +1,8 @@
 ﻿<Properties StartupConfiguration="{D160D3FE-1AFA-C50B-F059-CE489CA29E1A}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/startSceneManager1.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Assets/Scripts/GameManagerScript.cs" Line="60" Column="48" />
-      <File FileName="Assets/Scripts/GameManagerScripts.cs" Line="8" Column="28" />
-      <File FileName="Assets/Scripts/StartSceneManager.cs" Line="3" Column="19" />
-      <File FileName="Assets/Scripts/startSceneManager1.cs" Line="11" Column="40" />
-      <File FileName="Assets/Scripts/EndSceneManager.cs" Line="10" Column="46" />
+      <File FileName="Assets/Scripts/EndSceneManager.cs" Line="56" Column="10" />
+      <File FileName="Assets/Scripts/GameManagerScript.cs" Line="36" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
